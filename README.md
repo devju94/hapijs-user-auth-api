@@ -71,9 +71,9 @@ USER_NAME_MAX=20
 ``` 
 hapi/hapi		- hapi 프레임워크
 dotenv			- 환경변수 관리 패키지
-joi				- 데이터 유효성 검사 패키지
-hapi-auth-jwt2	- jwt 인증을 위한 hapi 플러그인
-jsonwebtoken	- jwt 생성을 위한 패키지
+joi			- 데이터 유효성 검사 패키지
+hapi-auth-jwt2	        - jwt 인증을 위한 hapi 플러그인
+jsonwebtoken	        - jwt 생성을 위한 패키지
 mongoose		- mongoDB ODM
 ```
 
