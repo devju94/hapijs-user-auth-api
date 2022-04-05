@@ -15,6 +15,7 @@ exports.plugin = {
       path: '/login',
       handler: Servises.authService.login,
       options: {
+        auth: false,
         validate: {
           payload: Joi.object({
             userId: Joi.string().min(+process.env.USER_ID_MIN).max(+process.env.USER_ID_MAX).required(),
